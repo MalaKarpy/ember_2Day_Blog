@@ -1,0 +1,37 @@
+{
+    "posts": [
+        {
+            "title": "My first post",
+            "author": 1,
+            "content": "Not much to say"
+        },
+        {
+            "title": "My second post",
+            "author": 2,
+            "content": "A bit more to say"
+        },
+        {
+            "owner": "Violet Beauregarde",
+            "city": "Portland",
+            "type": "Apartment",
+            "bedrooms": 3,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+        }
+    ],
+    "authors": [
+        {
+            "posts": [
+                1,
+                2
+            ],
+            "name": "Veruka Salt"
+        },
+        {
+            "posts": [
+                1,
+                2
+            ],
+            "name": "Charlie Chaplin"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{ "authors" :  [{
+  "posts": [1,2],
+  "name": "Veruka Salt"
+}, {
+  "posts": [1,2],
+  "name": "Charlie Chaplin"
+  }]
+}

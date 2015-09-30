@@ -1,15 +1,41 @@
 <h1>Posts</h1>
 
-<ul class="list-unstyled">
+<!-- <ul class="list-unstyled">
   {{#each model as |post|}}
   <li>
     {{post.title}}
     <span class="muted">
+      by {{post.author.name}}
+    </span>
+
+  </li>
+  {{/each}}
+</ul> -->
+
+<ul class="list-unstyled">
+  {{#each model.posts as |post|}}
+  <li>
+    {{post.title}}
+    <span class="muted">
+      by {{post.author.name}}
     </span>
 
   </li>
   {{/each}}
 </ul>
+
+<ul class="list-unstyled">
+  {{#each model.authors as |author|}}
+  <li>
+    <span class="muted">
+      by {{author.name}}
+    </span>
+
+  </li>
+  {{/each}}
+</ul>
+
+
 <form id="add-new-blog">
     User name:
     <br>

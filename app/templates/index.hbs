@@ -1,5 +1,13 @@
-<div class="home">
-  <h1>This is the home page</h1>
+<h1>Posts</h1>
 
-  <p>Do you like it? I hope you do.</p>
-</div>
+<ul class="list-unstyled">
+  {{#each model as |post|}}
+  <li>
+    {{post.title}}
+    <span class="muted">
+      by {{post.author.name}}
+    </span>
+
+  </li>
+  {{/each}}
+</ul>
